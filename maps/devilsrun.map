@@ -3126,7 +3126,7 @@
 // entity 16
 {
 "classname" "trigger_once"
-"message" "w"
+"message" "Here's the first combat arena"
 // brush 0
 {
 ( 1968 -760 -0 ) ( 1968 -759 -0 ) ( 1968 -760 1 ) trigger 0 0 0 1 1

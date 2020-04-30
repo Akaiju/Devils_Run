@@ -4,11 +4,11 @@ Output file: devilsrun.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2229 faces
-          272 brushes
-           17 entities
+         2277 faces
+          280 brushes
+           25 entities
            12 unique texnames
-          544 texinfo
+          555 texinfo
 
 Opened WAD: C:/Users/jackb/Documents/Devils_Run/wads/prototype_1_2.wad
 Processing hull 0...
@@ -45,20 +45,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote devilsrun.bsp
-         2505 planes            50100
-        10045 vertexes         120540
-         4141 nodes             99384
-          470 texinfo           18800
-         9180 faces            183600
-         6499 clipnodes         51992
-         2942 leafs             82376
-        10331 marksurfaces      20662
-        36173 surfedges        144692
-        24500 edges             98000
+         2572 planes            51440
+        10165 vertexes         121980
+         4189 nodes            100536
+          481 texinfo           19240
+         9256 faces            185120
+         6595 clipnodes         52760
+         2990 leafs             83720
+        10407 marksurfaces      20814
+        36477 surfedges        145908
+        24700 edges             98800
            14 textures         178780
               lightdata             0
               visdata               0
-              entdata            1287
+              entdata            2049
 
-0.913 seconds elapsed
-Peak memory usage: 38262242 (36.5M)
+0.951 seconds elapsed
+Peak memory usage: 38413814 (36.6M)

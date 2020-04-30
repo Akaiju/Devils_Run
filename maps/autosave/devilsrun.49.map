@@ -3088,6 +3088,7 @@
 // entity 11
 {
 "classname" "trigger_teleport"
+"target" "tele3"
 // brush 0
 {
 ( 2720 -2696 -224 ) ( 2720 -2695 -224 ) ( 2720 -2696 -223 ) trigger 0 0 0 1 1
@@ -3105,17 +3106,26 @@
 }
 // entity 13
 {
-"classname" "tele1"
-"origin" "228 -1712 -184"
+"classname" "info_teleport_destination"
+"origin" "244 -1712 -208"
+"targetname" "tele1"
 }
 // entity 14
 {
-"classname" "tele2"
-"origin" "280 -2612 -184"
+"classname" "info_teleport_destination"
+"origin" "268 -2608 -188"
+"targetname" "tele2"
 }
 // entity 15
 {
-"classname" "trigger_teleport"
+"classname" "info_teleport_destination"
+"origin" "-284 -1408 -216"
+"angle" "180"
+"targetname" "tele3"
+}
+// entity 16
+{
+"classname" "trigger_once"
 // brush 0
 {
 ( 1968 -760 -0 ) ( 1968 -759 -0 ) ( 1968 -760 1 ) trigger 0 0 0 1 1
