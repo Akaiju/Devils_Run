@@ -4,60 +4,39 @@ Output file: devilsrun.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2255 faces
-          277 brushes
-            9 entities
-           11 unique texnames
-          547 texinfo
+         2229 faces
+          272 brushes
+           17 entities
+           12 unique texnames
+          544 texinfo
 
 Opened WAD: C:/Users/jackb/Documents/Devils_Run/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          270 brushes
-          998 planes
+          261 brushes
+          989 planes
 ---- CSGFaces ----
-         2213 brushfaces
-         3864 csgfaces
-         3867 mergedfaces
+         2163 brushfaces
+         3841 csgfaces
+         3863 mergedfaces
 ---- SolidBSP ----
-         3994 split nodes
-         1205 solid leafs
-         2451 empty leafs
-          339 water leafs
+         4075 split nodes
+         1201 solid leafs
+         2531 empty leafs
+          344 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        10152 leaffaces
-         9020 nodefaces
+        10249 leaffaces
+         9098 nodefaces
 ---- Portalize ----
-         2790 vis leafs
-         2790 vis clusters
-         8553 vis portals
+         2875 vis leafs
+         2875 vis clusters
+         8826 vis portals
 ---- FillOutside ----
-         2604 outleafs
----- MergeAll ----
-          345 mergefaces
----- SolidBSP ----
-          177 split nodes
-           71 solid leafs
-          107 empty leafs
-            0 water leafs
-            0 detail leafs
-            0 detail illusionary leafs
-            0 detail fence leafs
-            0 illusionary visblocker leafs
-          624 leaffaces
-          448 nodefaces
----- Portalize ----
-          107 vis leafs
-          107 vis clusters
-          236 vis portals
----- Tjunc ----
-          381 world edges
-         1506 edge points
-          442 edges added by tjunctions
-            0 faces added by tjunctions
+*** WARNING 10: Reached occupant at (268 -2608 -188), no filling performed.
+Leak file written to devilsrun.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -66,20 +45,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote devilsrun.bsp
-         1778 planes            35560
-          652 vertexes           7824
-          219 nodes              5256
-           49 texinfo            1960
-          490 faces              9800
-         6604 clipnodes         52832
-          150 leafs              4200
-          666 marksurfaces       1332
-         2258 surfedges          9032
-         1130 edges              4520
-           11 textures         174568
+         2505 planes            50100
+        10045 vertexes         120540
+         4141 nodes             99384
+          470 texinfo           18800
+         9180 faces            183600
+         6499 clipnodes         51992
+         2942 leafs             82376
+        10331 marksurfaces      20662
+        36173 surfedges        144692
+        24500 edges             98000
+           14 textures         178780
               lightdata             0
               visdata               0
-              entdata             540
+              entdata            1287
 
-0.735 seconds elapsed
-Peak memory usage: 24270480 (23.1M)
+0.913 seconds elapsed
+Peak memory usage: 38262242 (36.5M)
