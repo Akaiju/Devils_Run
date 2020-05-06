@@ -4,36 +4,36 @@ Output file: devilsrun.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         2277 faces
-          280 brushes
-           25 entities
-           12 unique texnames
-          555 texinfo
+         2283 faces
+          275 brushes
+           34 entities
+           11 unique texnames
+          556 texinfo
 
 Opened WAD: C:/Users/jackb/Documents/Devils_Run/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          261 brushes
-          989 planes
+          257 brushes
+         1009 planes
 ---- CSGFaces ----
-         2163 brushfaces
-         3841 csgfaces
-         3863 mergedfaces
+         2175 brushfaces
+         3985 csgfaces
+         4007 mergedfaces
 ---- SolidBSP ----
-         4075 split nodes
-         1201 solid leafs
-         2531 empty leafs
-          344 water leafs
+         4099 split nodes
+         1196 solid leafs
+         2550 empty leafs
+          354 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        10249 leaffaces
-         9098 nodefaces
+        10375 leaffaces
+         9187 nodefaces
 ---- Portalize ----
-         2875 vis leafs
-         2875 vis clusters
-         8826 vis portals
+         2904 vis leafs
+         2904 vis clusters
+         8949 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (268 -2608 -188), no filling performed.
 Leak file written to devilsrun.pts
@@ -45,20 +45,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote devilsrun.bsp
-         2572 planes            51440
-        10165 vertexes         121980
-         4189 nodes            100536
-          481 texinfo           19240
-         9256 faces            185120
-         6595 clipnodes         52760
-         2990 leafs             83720
-        10407 marksurfaces      20814
-        36477 surfedges        145908
-        24700 edges             98800
-           14 textures         178780
+         2640 planes            52800
+        10263 vertexes         123156
+         4207 nodes            100968
+          486 texinfo           19440
+         9323 faces            186460
+         6737 clipnodes         53896
+         3013 leafs             84364
+        10511 marksurfaces      21022
+        36722 surfedges        146888
+        24908 edges             99632
+           13 textures         156976
               lightdata             0
               visdata               0
-              entdata            2049
+              entdata            2639
 
-0.951 seconds elapsed
-Peak memory usage: 38413814 (36.6M)
+0.911 seconds elapsed
+Peak memory usage: 38949534 (37.1M)
