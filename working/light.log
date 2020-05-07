@@ -6,16 +6,17 @@ BSP is version 29
 --- LoadEntities ---
 WARNING: brush entity with mins (3353.00 -2119.00 -2) maxs (3731.00 -1241.00 -2) (trigger_once) has targetname "waterenemiesdoortrigger" which is not targetted by anything.
 WARNING: brush entity with mins (2041.00 -2879.00 -2) maxs (2047.00 -2385.00 -1) (trigger_once) has empty key/value "message" ""
-WARNING: brush entity with mins (513.00 -1775.00 145) maxs (703.00 -1585.00 159) (trigger_once) has targetname "waterdog1trigger" which is not targetted by anything.
+WARNING: brush entity with mins (513.00 -1775.00 145) maxs (719.00 -1585.00 159) (trigger_once) has targetname "waterdog1trigger" which is not targetted by anything.
 WARNING: brush entity with mins (2713.00 -1695.00 -2) maxs (2719.00 -1665.00 -2) (func_button) has targetname "waterexitbutton" which is not targetted by anything.
 WARNING: entity at (1456 -2616 -196) (item_key2) has targetname "lavaroomkey1" which is not targetted by anything.
 WARNING: brush entity with mins (2275.00 -3057.00 -2) maxs (2305.00 -3051.00 -1) (func_button) has targetname "lavarexitbutton" which is not targetted by anything.
-61 entities read, 0 are lights.
+WARNING: brush entity with mins (-719.00 -1279.00 49) maxs (-689.00 -1273.00 79) (func_button) has targetname "exitbutton" which is not targetted by anything.
+83 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	7594 solid faces
+	7556 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -31,7 +32,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing devilsrun.bsp as BSP version 29
-1.041 seconds elapsed
+1.397 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
