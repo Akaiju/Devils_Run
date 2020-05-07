@@ -663,7 +663,7 @@
 ( 3724 -760 -208 ) ( 3716 -184 -208 ) ( 3716 -760 -208 ) 128_honey_3 60 8 -0 1 1
 ( 3716 -424 -64 ) ( 3844 -488 -64 ) ( 3716 -488 -64 ) 128_honey_3 60 8 -0 1 1
 ( 3724 -184 -208 ) ( 3716 -184 -232 ) ( 3724 -184 -232 ) 128_honey_3 60 -0 -0 1 1
-( 3724 -184 -208 ) ( 3724 -760 -232 ) ( 3724 -760 -208 ) 128_honey_3 -8 -0 -0 1 1
+( 3744 -184 -208 ) ( 3744 -760 -232 ) ( 3744 -760 -208 ) 128_honey_3 -8 -0 -0 1 1
 }
 // brush 58
 {
@@ -672,7 +672,7 @@
 ( 3724 -760 -208 ) ( 3716 -184 -208 ) ( 3716 -760 -208 ) 128_honey_3 60 8 -0 1 1
 ( 3716 -424 -64 ) ( 3844 -488 -64 ) ( 3716 -488 -64 ) 128_honey_3 60 8 -0 1 1
 ( 3716 -568 -208 ) ( 3844 -568 -64 ) ( 3716 -568 -64 ) 128_honey_3 60 -0 -0 1 1
-( 3724 -184 -208 ) ( 3724 -760 -232 ) ( 3724 -760 -208 ) 128_honey_3 -8 -0 -0 1 1
+( 3744 -184 -208 ) ( 3744 -760 -232 ) ( 3744 -760 -208 ) 128_honey_3 -8 -0 -0 1 1
 }
 // brush 59
 {
@@ -681,7 +681,7 @@
 ( 3724 -760 -64 ) ( 3716 -184 -64 ) ( 3716 -760 -64 ) 128_honey_3 60 8 -0 1 1
 ( 3724 -760 344 ) ( 3716 -184 344 ) ( 3724 -184 344 ) 128_honey_3 60 8 -0 1 1
 ( 3724 -184 344 ) ( 3716 -184 -64 ) ( 3724 -184 -64 ) 128_honey_3 60 -0 -0 1 1
-( 3724 -760 -64 ) ( 3724 -184 344 ) ( 3724 -184 -64 ) 128_honey_3 -8 -0 -0 1 1
+( 3744 -760 -64 ) ( 3744 -184 344 ) ( 3744 -184 -64 ) 128_honey_3 -8 -0 -0 1 1
 }
 // brush 60
 {
@@ -3009,6 +3009,7 @@
 "spawnflags" "9"
 "targetname" "secretdoor"
 "angle" "-180"
+"sounds" "2"
 // brush 0
 {
 ( 1744 -760 128 ) ( 1744 -760 96 ) ( 1744 -632 96 ) 128_gold_3 -8 -0 -0 1 1
@@ -3044,19 +3045,6 @@
 }
 // entity 8
 {
-"classname" "func_illusionary"
-// brush 0
-{
-( 3716 -184 -232 ) ( 3716 -760 -208 ) ( 3716 -760 -232 ) 128_gold_3 -8 -0 -0 1 1
-( 3716 -568 -208 ) ( 3716 -568 -64 ) ( 3844 -568 -64 ) 128_gold_3 60 -0 -0 1 1
-( 3724 -760 -208 ) ( 3716 -184 -208 ) ( 3716 -760 -208 ) 128_gold_3 60 8 -0 1 1
-( 3716 -424 -64 ) ( 3844 -488 -64 ) ( 3716 -488 -64 ) 128_gold_3 60 8 -0 1 1
-( 3716 -376 -208 ) ( 3844 -376 -64 ) ( 3716 -376 -64 ) 128_gold_3 60 -0 -0 1 1
-( 3724 -184 -208 ) ( 3724 -760 -232 ) ( 3724 -760 -208 ) 128_gold_3 -8 -0 -0 1 1
-}
-}
-// entity 9
-{
 "classname" "trigger_teleport"
 "target" "tele1"
 "spawnflags" "1"
@@ -3070,7 +3058,7 @@
 ( 4016 -380 -204 ) ( 4016 -380 -203 ) ( 4016 -379 -204 ) trigger -0 -0 -0 1 1
 }
 }
-// entity 10
+// entity 9
 {
 "classname" "trigger_teleport"
 "target" "tele2"
@@ -3085,7 +3073,7 @@
 ( 4048 -1580 -252 ) ( 4048 -1580 -251 ) ( 4048 -1579 -252 ) trigger 48 -48 -0 1 1
 }
 }
-// entity 11
+// entity 10
 {
 "classname" "trigger_teleport"
 "target" "tele3"
@@ -3099,34 +3087,33 @@
 ( 2736 -2624 -216 ) ( 2736 -2624 -215 ) ( 2736 -2623 -216 ) trigger 0 0 0 1 1
 }
 }
-// entity 12
+// entity 11
 {
 "classname" "weapon_rocketlauncher"
 "origin" "2398 -786 184"
 }
-// entity 13
+// entity 12
 {
 "classname" "info_teleport_destination"
 "origin" "244 -1712 -208"
 "targetname" "tele1"
 }
-// entity 14
+// entity 13
 {
 "classname" "info_teleport_destination"
 "origin" "268 -2608 -188"
 "targetname" "tele2"
 }
-// entity 15
+// entity 14
 {
 "classname" "info_teleport_destination"
 "origin" "-284 -1408 -216"
 "angle" "180"
 "targetname" "tele3"
 }
-// entity 16
+// entity 15
 {
 "classname" "trigger_once"
-"message" "Here's the first combat arena"
 // brush 0
 {
 ( 1968 -760 -0 ) ( 1968 -759 -0 ) ( 1968 -760 1 ) trigger 0 0 0 1 1
@@ -3137,7 +3124,7 @@
 ( 1980 -420 4 ) ( 1980 -420 5 ) ( 1980 -419 4 ) trigger 0 0 0 1 1
 }
 }
-// entity 17
+// entity 16
 {
 "classname" "trigger_once"
 "message" "This teleporter sends you to the next  section"
@@ -3151,7 +3138,7 @@
 ( 3952 -344 -204 ) ( 3952 -344 -203 ) ( 3952 -343 -204 ) trigger 0 0 0 1 1
 }
 }
-// entity 18
+// entity 17
 {
 "classname" "trigger_once"
 "message" "This teleporter sends you to the next  section"
@@ -3165,7 +3152,7 @@
 ( 4004 -1552 -252 ) ( 4004 -1552 -251 ) ( 4004 -1551 -252 ) trigger -8 -48 -0 1 1
 }
 }
-// entity 19
+// entity 18
 {
 "classname" "trigger_once"
 "message" "Here's the next combat arena"
@@ -3179,7 +3166,7 @@
 ( 2672 -1588 132 ) ( 2672 -1588 133 ) ( 2672 -1587 132 ) trigger 0 0 0 1 1
 }
 }
-// entity 20
+// entity 19
 {
 "classname" "trigger_once"
 "message" "Another combat arena!?"
@@ -3193,7 +3180,7 @@
 ( 1944 -2480 -208 ) ( 1944 -2480 -207 ) ( 1944 -2479 -208 ) trigger 20 12 -0 1 1
 }
 }
-// entity 21
+// entity 20
 {
 "classname" "trigger_once"
 "message" "This door will open once all monsters are dead"
@@ -3207,7 +3194,7 @@
 ( 2648 -2564 -208 ) ( 2648 -2564 -207 ) ( 2648 -2563 -208 ) trigger -0 8 -0 1 1
 }
 }
-// entity 22
+// entity 21
 {
 "classname" "trigger_once"
 "message" "This door opens when all monsters are defeated"
@@ -3221,54 +3208,94 @@
 ( -764 -1200 36 ) ( -764 -1200 37 ) ( -764 -1199 36 ) trigger 0 0 0 1 1
 }
 }
-// entity 23
+// entity 22
 {
 "classname" "item_rockets"
-"origin" "2432 -800 184"
+"origin" "2386 -902 184"
 }
-// entity 24
+// entity 23
 {
 "classname" "monster_army"
 "origin" "2448 -464 -184"
 }
-// entity 25
+// entity 24
 {
 "classname" "monster_army"
 "origin" "2832 -480 -184"
 }
-// entity 26
+// entity 25
 {
 "classname" "monster_army"
 "origin" "3296 -480 -184"
 }
-// entity 27
+// entity 26
 {
 "classname" "monster_army"
 "origin" "2944 -256 -184"
 }
-// entity 28
+// entity 27
 {
 "classname" "monster_army"
 "origin" "2576 -256 -184"
 }
-// entity 29
+// entity 28
 {
 "classname" "monster_ogre"
 "origin" "3104 -528 -184"
 }
-// entity 30
+// entity 29
 {
 "classname" "monster_ogre"
 "origin" "2096 -464 -184"
 }
-// entity 31
+// entity 30
 {
 "classname" "weapon_supernailgun"
 "origin" "3720 -1672 24"
 "angle" "90"
 }
-// entity 32
+// entity 31
 {
 "classname" "monster_dog"
 "origin" "920 -1684 152"
+}
+// entity 32
+{
+"classname" "func_door"
+"spawnflags" "36"
+"angle" "-90"
+"targetname" "toggle"
+"sounds" "2"
+// brush 0
+{
+( 3724 -184 -232 ) ( 3724 -760 -208 ) ( 3724 -760 -232 ) 128_gold_3 -8 -0 -0 1 1
+( 3724 -568 -208 ) ( 3724 -568 -64 ) ( 3852 -568 -64 ) 128_gold_3 52 -0 -0 1 1
+( 3732 -760 -208 ) ( 3724 -184 -208 ) ( 3724 -760 -208 ) 128_gold_3 52 8 -0 1 1
+( 3724 -424 -64 ) ( 3852 -488 -64 ) ( 3724 -488 -64 ) 128_gold_3 52 8 -0 1 1
+( 3724 -376 -208 ) ( 3852 -376 -64 ) ( 3724 -376 -64 ) 128_gold_3 52 -0 -0 1 1
+( 3732 -184 -208 ) ( 3732 -760 -232 ) ( 3732 -760 -208 ) 128_gold_3 -8 -0 -0 1 1
+}
+}
+// entity 33
+{
+"classname" "func_button"
+"target" "toggle"
+"angle" "90"
+"wait" "-1"
+"health" "0"
+"lip" "2"
+// brush 0
+{
+( 3712 -356 -152 ) ( 3712 -336 -172 ) ( 3712 -336 -152 ) +0button_1 -0 -20 -0 1 1
+( 3712 -352 -152 ) ( 3716 -352 -172 ) ( 3712 -352 -172 ) +0button_1 -0 -20 -0 1 1
+( 3712 -336 -180 ) ( 3716 -356 -180 ) ( 3716 -336 -180 ) +0button_1 -0 -0 -0 1 1
+( 3712 -356 -148 ) ( 3716 -336 -148 ) ( 3716 -356 -148 ) +0button_1 -0 -0 -0 1 1
+( 3712 -320 -152 ) ( 3716 -320 -172 ) ( 3716 -320 -152 ) +0button_1 -0 -20 -0 1 1
+( 3716 -356 -172 ) ( 3716 -336 -152 ) ( 3716 -336 -172 ) +0button_1 -0 -20 -0 1 1
+}
+}
+// entity 34
+{
+"classname" "item_rockets"
+"origin" "2386 -870 184"
 }
