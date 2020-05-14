@@ -51,7 +51,7 @@ Wrote devilsrun.bsp
          2754 planes            55080
         14700 vertexes         176400
          6837 nodes            164088
-          680 texinfo           27200
+          679 texinfo           27160
         13119 faces            262380
          9966 clipnodes         79728
          4620 leafs            129360
@@ -61,7 +61,7 @@ Wrote devilsrun.bsp
            54 textures         447764
               lightdata             0
               visdata               0
-              entdata           29714
+              entdata           29695
 
-1.306 seconds elapsed
-Peak memory usage: 54981592 (52.4M)
+1.412 seconds elapsed
+Peak memory usage: 54981568 (52.4M)

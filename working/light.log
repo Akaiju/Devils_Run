@@ -55,10 +55,10 @@ Final count: 261 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 264862
+lightdatasize: 264861
 0 switchable light styles (32 max)
 Writing devilsrun.bsp as BSP version 29
-1.626 seconds elapsed
+1.659 seconds elapsed
 
 stats:
 16.514734 lights tested, 6.316396 hits per sample point
