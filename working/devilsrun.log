@@ -4,37 +4,37 @@ Output file: devilsrun.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-         3398 faces
-          482 brushes
-          333 entities
+         3404 faces
+          483 brushes
+          369 entities
            52 unique texnames
-          856 texinfo
+          858 texinfo
 
 Opened WAD: C:/Users/jackb/Documents/Devils_Run/wads/prototype_1_2.wad
 Opened WAD: C:/Users/jackb/Documents/Devils_Run/wads/START.WAD
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          446 brushes
-         1073 planes
+          447 brushes
+         1074 planes
 ---- CSGFaces ----
-         3182 brushfaces
-         4908 csgfaces
-         4682 mergedfaces
+         3188 brushfaces
+         4913 csgfaces
+         4686 mergedfaces
 ---- SolidBSP ----
-         6618 split nodes
-         2217 solid leafs
-         3932 empty leafs
+         6621 split nodes
+         2219 solid leafs
+         3933 empty leafs
           470 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-        14392 leaffaces
-        12887 nodefaces
+        14399 leaffaces
+        12893 nodefaces
 ---- Portalize ----
-         4402 vis leafs
-         4402 vis clusters
-        13013 vis portals
+         4403 vis leafs
+         4403 vis clusters
+        13009 vis portals
 ---- FillOutside ----
 *** WARNING 10: Reached occupant at (-1096 -2760 -568), no filling performed.
 Leak file written to devilsrun.pts
@@ -42,26 +42,26 @@ Leak file written to devilsrun.pts
 ---- GrowRegions ----
 Processing hull 1...
 *** WARNING 12: New portal was clipped away in CutNodePortals_r near (1399.656 -2590.304 -193.983)
-*** WARNING 10: Reached occupant at (744 -3632 -136), no filling performed.
+*** WARNING 10: Reached occupant at (4000 -472 232), no filling performed.
 Processing hull 2...
-*** WARNING 10: Reached occupant at (744 -3632 -136), no filling performed.
+*** WARNING 10: Reached occupant at (612 -1684 80), no filling performed.
 *** WARNING 16: Texture __TB_empty not found
 ---- WriteBSPFile ----
 Wrote devilsrun.bsp
-         2746 planes            54920
-        14693 vertexes         176316
-         6834 nodes            164016
-          679 texinfo           27160
-        13113 faces            262260
-         9929 clipnodes         79432
-         4619 leafs            129332
-        14617 marksurfaces      29234
-        51811 surfedges        207244
-        34299 edges            137196
+         2754 planes            55080
+        14700 vertexes         176400
+         6837 nodes            164088
+          680 texinfo           27200
+        13119 faces            262380
+         9966 clipnodes         79728
+         4620 leafs            129360
+        14624 marksurfaces      29248
+        51835 surfedges        207340
+        34313 edges            137252
            54 textures         447764
               lightdata             0
               visdata               0
-              entdata           26789
+              entdata           29714
 
-1.284 seconds elapsed
-Peak memory usage: 54884350 (52.3M)
+1.306 seconds elapsed
+Peak memory usage: 54981592 (52.4M)

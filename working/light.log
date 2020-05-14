@@ -37,43 +37,30 @@ WARNING: couldn't parse 'a' as number for key 'delay'
 WARNING: couldn't parse 'a' as number for key 'delay'
 WARNING: couldn't parse 'a' as number for key 'delay'
 WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-WARNING: couldn't parse 'a' as number for key 'delay'
-333 entities read, 232 are lights.
+369 entities read, 261 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	10691 solid faces
+	10701 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 232 initial lights
-SetupLights: 232 after surface lights
-SetupLights: 232 after jittering
+SetupLights: 261 initial lights
+SetupLights: 261 after surface lights
+SetupLights: 261 after jittering
 --- EstimateLightVisibility ---
 0....1....2....3....4....5....6....7....8....9....
-Final count: 232 lights 0 suns in use.
+Final count: 261 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 228709
+lightdatasize: 264862
 0 switchable light styles (32 max)
 Writing devilsrun.bsp as BSP version 29
-1.646 seconds elapsed
+1.626 seconds elapsed
 
 stats:
-16.503435 lights tested, 6.012305 hits per sample point
+16.514734 lights tested, 6.316396 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
